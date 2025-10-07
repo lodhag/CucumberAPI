@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-06T18:49:36 IST" name="Default suite" finished-at="2025-10-06T18:49:41 IST" duration-ms="4178">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.api.runners.CucumberAPIRunner@6ed3ccb2]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-10-06T18:49:36 IST" name="Default test" finished-at="2025-10-06T18:49:41 IST" duration-ms="4178">
+      <class name="com.api.runners.CucumberAPIRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.api.runners.CucumberAPIRunner@6ed3ccb2]" started-at="2025-10-06T18:49:37 IST" name="setUpClass" finished-at="2025-10-06T18:49:37 IST" duration-ms="264" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@22d477c2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.api.runners.CucumberAPIRunner@6ed3ccb2]" started-at="2025-10-06T18:49:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-10-06T18:49:41 IST" duration-ms="3855" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate the API testing process"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["API Testing Training"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.api.runners.CucumberAPIRunner@6ed3ccb2]" started-at="2025-10-06T18:49:41 IST" name="tearDownClass" finished-at="2025-10-06T18:49:41 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.api.runners.CucumberAPIRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
